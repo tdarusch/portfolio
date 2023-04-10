@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    padding-top: 40px;
+}
+
+.sub-container{
+    display: flex;
+    min-width: 768px;
+    width: 800px;
+    justify-content: center;
+}
+
+.content-container{
+    width: 300px;
+    height: 400px;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.content-container:hover{
+    transform: scale(1.1);
+}
+
+.content-head{
+    width: 290px;
+    height: 30px;
+    border-radius: 5px;
+    z-index: 5px;
+    background-color: #262626;
+    padding-left: 10px;
+    font-weight: 500;
+    color: #d9d9d9;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.content-body{
+    text-align: center;
+    color: #d9d9d9;
+    position: relative;
+    top: -7px;
+    width: 280px;
+    height: 360px;
+    border-radius: 5px;
+    z-index: 6px;
+    background-color: #404040;
+    padding-left: 10px;
+    font-weight: 200;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.content-footer{
+    text-align: right;
+    position: relative;
+    right: 11px;
+    width: 283px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-weight: 200px;
+    padding-top: 4px;
+    z-index: 7;
+}
+
+#footer1{
+    position: relative;
+    top: 12px;
+}
+
+#footer2{
+    position: relative;
+    top: 12px;
+}
+
+#footer3{
+    position: relative;
+    top: 75px;
+}
+
+.stacktxt{
+    font-weight: 400;
+    color: #d9d9d9;
+}
+
+.reacttxt{
+    color: #4ddbff;
+}
+
+.nodetxt{
+    color: #66ff66;
+}
+
+.cstxt{
+    color: #8080ff;
+}
+
+.cpptxt{
+    color: #ffb84d;
+}
+
+.mltxt{
+    color: #669999;
+}
+
+.pythontxt{
+    color: #ffff4d;
+}
+
+hr.contentline{
+    border: 1px solid #d9d9d9;
+}
